@@ -1,6 +1,1028 @@
 {
-  "restaurants": [],
-  "foods": [],
+  "restaurants": [
+    {
+      "id": "1",
+      "name": "Spice Garden",
+      "location": "Tadepalligudem",
+      "description": "Authentic Indian food and delicious biryani.",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=700",
+      "rating": 4.5
+    },
+    {
+      "id": "2",
+      "name": "Food Court",
+      "location": "Bhimavaram",
+      "description": "Burgers, pizzas and delicious fast food.",
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=700",
+      "rating": 4.2
+    },
+    {
+      "id": "3",
+      "name": "Green Leaf",
+      "location": "Rajahmundry",
+      "description": "Fresh and tasty vegetarian meals.",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=700",
+      "rating": 4
+    },
+    {
+      "id": "4",
+      "name": "The Royal Kitchen",
+      "location": "Tadepalligudem",
+      "description": "Authentic Indian meals and delicious biryanis.",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=700",
+      "rating": 4.7
+    },
+    {
+      "id": "5",
+      "name": "Pizza Paradise",
+      "location": "Bhimavaram",
+      "description": "Freshly baked pizzas and cheesy delights.",
+      "image": "https://images.unsplash.com/photo-1579751626657-72bc17010498?w=700",
+      "rating": 4.6
+    },
+    {
+      "id": "6",
+      "name": "Burger House",
+      "location": "Rajahmundry",
+      "description": "Juicy burgers and crispy fries.",
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=700",
+      "rating": 4.5
+    },
+    {
+      "id": "7",
+      "name": "Spice Avenue",
+      "location": "Eluru",
+      "description": "Traditional Indian flavours and spicy dishes.",
+      "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=700",
+      "rating": 4.8
+    },
+    {
+      "id": "8",
+      "name": "The Dessert Corner",
+      "location": "Tadepalligudem",
+      "description": "Cakes, desserts and sweet treats.",
+      "image": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=700",
+      "rating": 4.5
+    },
+    {
+      "id": "9",
+      "name": "Green Bowl",
+      "location": "Bhimavaram",
+      "description": "Healthy meals, salads and fresh food.",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=700",
+      "rating": 4.4
+    },
+    {
+      "id": "10",
+      "name": "Cafe Mocha",
+      "location": "Rajahmundry",
+      "description": "Coffee, snacks and relaxing cafe vibes.",
+      "image": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=700",
+      "rating": 4.6
+    },
+    {
+      "id": "11",
+      "name": "Coastal Flavours",
+      "location": "Tadepalligudem",
+      "description": "Coastal Andhra favourites and seafood.",
+      "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=700",
+      "rating": 4.7
+    },
+    {
+      "id": "12",
+      "name": "Tandoori Trails",
+      "location": "Bhimavaram",
+      "description": "Tandoori starters, kebabs and North Indian classics.",
+      "image": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=700",
+      "rating": 4.6
+    },
+    {
+      "id": "13",
+      "name": "Dosa Delight",
+      "location": "Rajahmundry",
+      "description": "South Indian tiffins, dosas and traditional breakfasts.",
+      "image": "https://images.unsplash.com/photo-1668236543090-82eba5ee5976?w=700",
+      "rating": 4.5
+    },
+    {
+      "id": "14",
+      "name": "Noodle Station",
+      "location": "Eluru",
+      "description": "Indo-Chinese noodles, rice and starters.",
+      "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=700",
+      "rating": 4.3
+    },
+    {
+      "id": "15",
+      "name": "Wrap and Roll",
+      "location": "Tadepalligudem",
+      "description": "Fresh wraps, rolls, sandwiches and quick bites.",
+      "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=700",
+      "rating": 4.4
+    }
+  ],
+  "foods": [
+    {
+      "id": "101",
+      "restaurantId": "1",
+      "name": "Chicken Biryani",
+      "category": "Biryani",
+      "price": 220,
+      "description": "Delicious spicy chicken biryani.",
+      "image": "https://images.unsplash.com/photo-1563379091339-03246963d96a?w=700",
+      "available": true
+    },
+    {
+      "id": "102",
+      "restaurantId": "1",
+      "name": "Veg Biryani",
+      "category": "Biryani",
+      "price": 160,
+      "description": "Flavorful vegetable biryani.",
+      "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=700",
+      "available": true
+    },
+    {
+      "id": "103",
+      "restaurantId": "1",
+      "name": "Mutton Biryani",
+      "category": "Biryani",
+      "price": 320,
+      "description": "Tender mutton with fragrant basmati rice.",
+      "image": "https://images.unsplash.com/photo-1563379091339-03246963d96a?w=700",
+      "available": true
+    },
+    {
+      "id": "104",
+      "restaurantId": "1",
+      "name": "Egg Biryani",
+      "category": "Biryani",
+      "price": 180,
+      "description": "Spiced biryani served with boiled egg.",
+      "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=700",
+      "available": true
+    },
+    {
+      "id": "105",
+      "restaurantId": "1",
+      "name": "Chicken 65",
+      "category": "Starters",
+      "price": 210,
+      "description": "Crispy chicken tossed with spices.",
+      "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=700",
+      "available": true
+    },
+    {
+      "id": "106",
+      "restaurantId": "1",
+      "name": "Gulab Jamun",
+      "category": "Desserts",
+      "price": 80,
+      "description": "Soft milk dumplings in sugar syrup.",
+      "image": "https://images.unsplash.com/photo-1666190092159-3f4e1b7b8f0b?w=700",
+      "available": true
+    },
+    {
+      "id": "107",
+      "restaurantId": "2",
+      "name": "Cheese Pizza",
+      "category": "Pizza",
+      "price": 250,
+      "description": "Cheesy delicious pizza.",
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=700",
+      "available": true
+    },
+    {
+      "id": "108",
+      "restaurantId": "2",
+      "name": "Veg Burger",
+      "category": "Burger",
+      "price": 120,
+      "description": "Fresh vegetable burger.",
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=700",
+      "available": true
+    },
+    {
+      "id": "109",
+      "restaurantId": "2",
+      "name": "Farmhouse Pizza",
+      "category": "Pizza",
+      "price": 290,
+      "description": "Pizza loaded with fresh vegetables.",
+      "image": "https://images.unsplash.com/photo-1579751626657-72bc17010498?w=700",
+      "available": true
+    },
+    {
+      "id": "110",
+      "restaurantId": "2",
+      "name": "Chicken Burger",
+      "category": "Burger",
+      "price": 180,
+      "description": "Grilled chicken patty with lettuce.",
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=700",
+      "available": true
+    },
+    {
+      "id": "111",
+      "restaurantId": "2",
+      "name": "Garlic Bread",
+      "category": "Snacks",
+      "price": 110,
+      "description": "Toasted bread with garlic butter.",
+      "image": "https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?w=700",
+      "available": true
+    },
+    {
+      "id": "112",
+      "restaurantId": "2",
+      "name": "French Fries",
+      "category": "Snacks",
+      "price": 90,
+      "description": "Golden crispy salted fries.",
+      "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=700",
+      "available": true
+    },
+    {
+      "id": "113",
+      "restaurantId": "3",
+      "name": "Veg Meals",
+      "category": "Meals",
+      "price": 150,
+      "description": "Traditional vegetarian meals.",
+      "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=700",
+      "available": true
+    },
+    {
+      "id": "114",
+      "restaurantId": "3",
+      "name": "Paneer Butter Masala",
+      "category": "Curry",
+      "price": 190,
+      "description": "Creamy paneer curry.",
+      "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=700",
+      "available": true
+    },
+    {
+      "id": "115",
+      "restaurantId": "3",
+      "name": "Jeera Rice",
+      "category": "Rice",
+      "price": 120,
+      "description": "Basmati rice tempered with cumin.",
+      "image": "https://images.unsplash.com/photo-1516684732162-798a0062be99?w=700",
+      "available": true
+    },
+    {
+      "id": "116",
+      "restaurantId": "3",
+      "name": "Veg Pulao",
+      "category": "Rice",
+      "price": 150,
+      "description": "Fragrant rice with vegetables.",
+      "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=700",
+      "available": true
+    },
+    {
+      "id": "117",
+      "restaurantId": "3",
+      "name": "Masala Dosa",
+      "category": "South Indian",
+      "price": 100,
+      "description": "Crispy dosa with potato masala.",
+      "image": "https://images.unsplash.com/photo-1668236543090-82eba5ee5976?w=700",
+      "available": true
+    },
+    {
+      "id": "118",
+      "restaurantId": "3",
+      "name": "Fruit Salad",
+      "category": "Desserts",
+      "price": 110,
+      "description": "Fresh seasonal fruit bowl.",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=700",
+      "available": true
+    },
+    {
+      "id": "119",
+      "restaurantId": "4",
+      "name": "Special Chicken Biryani",
+      "category": "Biryani",
+      "price": 280,
+      "description": "Royal aromatic chicken biryani.",
+      "image": "https://images.unsplash.com/photo-1563379091339-03246963d96a?w=700",
+      "available": true
+    },
+    {
+      "id": "120",
+      "restaurantId": "4",
+      "name": "Paneer Butter Masala",
+      "category": "Curry",
+      "price": 190,
+      "description": "Creamy paneer curry with Indian spices.",
+      "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=700",
+      "available": true
+    },
+    {
+      "id": "121",
+      "restaurantId": "4",
+      "name": "Mutton Biryani",
+      "category": "Biryani",
+      "price": 340,
+      "description": "Royal dum biryani with tender mutton.",
+      "image": "https://images.unsplash.com/photo-1563379091339-03246963d96a?w=700",
+      "available": true
+    },
+    {
+      "id": "122",
+      "restaurantId": "4",
+      "name": "Chicken Kebab",
+      "category": "Starters",
+      "price": 230,
+      "description": "Juicy grilled chicken kebabs.",
+      "image": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=700",
+      "available": true
+    },
+    {
+      "id": "123",
+      "restaurantId": "4",
+      "name": "Butter Naan",
+      "category": "Breads",
+      "price": 45,
+      "description": "Soft naan brushed with butter.",
+      "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=700",
+      "available": true
+    },
+    {
+      "id": "124",
+      "restaurantId": "4",
+      "name": "Rasmalai",
+      "category": "Desserts",
+      "price": 100,
+      "description": "Soft chenna in sweet saffron milk.",
+      "image": "https://images.unsplash.com/photo-1666190092159-3f4e1b7b8f0b?w=700",
+      "available": true
+    },
+    {
+      "id": "125",
+      "restaurantId": "5",
+      "name": "Margherita Pizza",
+      "category": "Pizza",
+      "price": 230,
+      "description": "Classic pizza with cheese and tomato.",
+      "image": "https://images.unsplash.com/photo-1579751626657-72bc17010498?w=700",
+      "available": true
+    },
+    {
+      "id": "126",
+      "restaurantId": "5",
+      "name": "Farmhouse Pizza",
+      "category": "Pizza",
+      "price": 290,
+      "description": "Loaded pizza with fresh vegetables.",
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=700",
+      "available": true
+    },
+    {
+      "id": "127",
+      "restaurantId": "5",
+      "name": "Paneer Pizza",
+      "category": "Pizza",
+      "price": 270,
+      "description": "Pizza topped with paneer and peppers.",
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=700",
+      "available": true
+    },
+    {
+      "id": "128",
+      "restaurantId": "5",
+      "name": "BBQ Chicken Pizza",
+      "category": "Pizza",
+      "price": 330,
+      "description": "Smoky barbecue chicken pizza.",
+      "image": "https://images.unsplash.com/photo-1579751626657-72bc17010498?w=700",
+      "available": true
+    },
+    {
+      "id": "129",
+      "restaurantId": "5",
+      "name": "Cheese Garlic Bread",
+      "category": "Snacks",
+      "price": 130,
+      "description": "Garlic bread topped with melted cheese.",
+      "image": "https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?w=700",
+      "available": true
+    },
+    {
+      "id": "130",
+      "restaurantId": "5",
+      "name": "Potato Wedges",
+      "category": "Snacks",
+      "price": 100,
+      "description": "Seasoned crispy potato wedges.",
+      "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=700",
+      "available": true
+    },
+    {
+      "id": "131",
+      "restaurantId": "6",
+      "name": "Classic Veg Burger",
+      "category": "Burger",
+      "price": 130,
+      "description": "Crispy patty with fresh vegetables.",
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=700",
+      "available": true
+    },
+    {
+      "id": "132",
+      "restaurantId": "6",
+      "name": "French Fries",
+      "category": "Snacks",
+      "price": 90,
+      "description": "Golden crispy salted fries.",
+      "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=700",
+      "available": true
+    },
+    {
+      "id": "133",
+      "restaurantId": "6",
+      "name": "Chicken Cheese Burger",
+      "category": "Burger",
+      "price": 210,
+      "description": "Chicken patty with melted cheese.",
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=700",
+      "available": true
+    },
+    {
+      "id": "134",
+      "restaurantId": "6",
+      "name": "Double Patty Burger",
+      "category": "Burger",
+      "price": 240,
+      "description": "Two juicy patties in a toasted bun.",
+      "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=700",
+      "available": true
+    },
+    {
+      "id": "135",
+      "restaurantId": "6",
+      "name": "Peri Peri Fries",
+      "category": "Snacks",
+      "price": 110,
+      "description": "Fries tossed in peri peri seasoning.",
+      "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=700",
+      "available": true
+    },
+    {
+      "id": "136",
+      "restaurantId": "6",
+      "name": "Chicken Nuggets",
+      "category": "Starters",
+      "price": 150,
+      "description": "Crispy bite-sized chicken nuggets.",
+      "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=700",
+      "available": true
+    },
+    {
+      "id": "137",
+      "restaurantId": "7",
+      "name": "Chicken Tikka",
+      "category": "Starters",
+      "price": 240,
+      "description": "Smoky grilled chicken tikka.",
+      "image": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=700",
+      "available": true
+    },
+    {
+      "id": "138",
+      "restaurantId": "7",
+      "name": "Butter Chicken",
+      "category": "Curry",
+      "price": 260,
+      "description": "Rich creamy butter chicken curry.",
+      "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=700",
+      "available": true
+    },
+    {
+      "id": "139",
+      "restaurantId": "7",
+      "name": "Andhra Chicken Curry",
+      "category": "Curry",
+      "price": 250,
+      "description": "Spicy Andhra-style chicken curry.",
+      "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=700",
+      "available": true
+    },
+    {
+      "id": "140",
+      "restaurantId": "7",
+      "name": "Gongura Mutton",
+      "category": "Curry",
+      "price": 340,
+      "description": "Mutton cooked with tangy gongura leaves.",
+      "image": "https://images.unsplash.com/photo-1563379091339-03246963d96a?w=700",
+      "available": true
+    },
+    {
+      "id": "141",
+      "restaurantId": "7",
+      "name": "Chicken Fry",
+      "category": "Starters",
+      "price": 230,
+      "description": "Andhra-style pepper chicken fry.",
+      "image": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=700",
+      "available": true
+    },
+    {
+      "id": "142",
+      "restaurantId": "7",
+      "name": "Andhra Veg Meals",
+      "category": "Meals",
+      "price": 170,
+      "description": "Traditional meal with rice and curries.",
+      "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=700",
+      "available": true
+    },
+    {
+      "id": "143",
+      "restaurantId": "8",
+      "name": "Chocolate Cake",
+      "category": "Desserts",
+      "price": 140,
+      "description": "Rich and moist chocolate cake.",
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=700",
+      "available": true
+    },
+    {
+      "id": "144",
+      "restaurantId": "8",
+      "name": "Strawberry Cheesecake",
+      "category": "Desserts",
+      "price": 180,
+      "description": "Creamy cheesecake with strawberries.",
+      "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=700",
+      "available": true
+    },
+    {
+      "id": "145",
+      "restaurantId": "8",
+      "name": "Red Velvet Cake",
+      "category": "Desserts",
+      "price": 160,
+      "description": "Soft red velvet cake slice.",
+      "image": "https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=700",
+      "available": true
+    },
+    {
+      "id": "146",
+      "restaurantId": "8",
+      "name": "Black Forest Cake",
+      "category": "Desserts",
+      "price": 150,
+      "description": "Chocolate cake with cream and cherries.",
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=700",
+      "available": true
+    },
+    {
+      "id": "147",
+      "restaurantId": "8",
+      "name": "Chocolate Cupcake",
+      "category": "Desserts",
+      "price": 90,
+      "description": "Chocolate cupcake with frosting.",
+      "image": "https://images.unsplash.com/photo-1486427944299-d1955d23e34a?w=700",
+      "available": true
+    },
+    {
+      "id": "148",
+      "restaurantId": "8",
+      "name": "Oreo Shake",
+      "category": "Beverages",
+      "price": 140,
+      "description": "Creamy cookies and cream shake.",
+      "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=700",
+      "available": true
+    },
+    {
+      "id": "149",
+      "restaurantId": "9",
+      "name": "Healthy Salad Bowl",
+      "category": "Healthy",
+      "price": 160,
+      "description": "Fresh vegetables and healthy toppings.",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=700",
+      "available": true
+    },
+    {
+      "id": "150",
+      "restaurantId": "9",
+      "name": "Veg Sandwich",
+      "category": "Snacks",
+      "price": 110,
+      "description": "Fresh vegetable sandwich.",
+      "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=700",
+      "available": true
+    },
+    {
+      "id": "151",
+      "restaurantId": "9",
+      "name": "Quinoa Salad",
+      "category": "Healthy",
+      "price": 190,
+      "description": "Protein-rich quinoa with fresh vegetables.",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=700",
+      "available": true
+    },
+    {
+      "id": "152",
+      "restaurantId": "9",
+      "name": "Grilled Paneer Bowl",
+      "category": "Healthy",
+      "price": 210,
+      "description": "Grilled paneer with greens and grains.",
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=700",
+      "available": true
+    },
+    {
+      "id": "153",
+      "restaurantId": "9",
+      "name": "Sprout Salad",
+      "category": "Healthy",
+      "price": 120,
+      "description": "Fresh sprouts with lemon dressing.",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=700",
+      "available": true
+    },
+    {
+      "id": "154",
+      "restaurantId": "9",
+      "name": "Fruit Smoothie",
+      "category": "Beverages",
+      "price": 140,
+      "description": "Blended seasonal fruit smoothie.",
+      "image": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=700",
+      "available": true
+    },
+    {
+      "id": "155",
+      "restaurantId": "10",
+      "name": "Cappuccino",
+      "category": "Beverages",
+      "price": 120,
+      "description": "Freshly brewed creamy cappuccino.",
+      "image": "https://images.unsplash.com/photo-1534778101976-62847782c213?w=700",
+      "available": true
+    },
+    {
+      "id": "156",
+      "restaurantId": "10",
+      "name": "Chocolate Brownie",
+      "category": "Desserts",
+      "price": 130,
+      "description": "Warm chocolate brownie.",
+      "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=700",
+      "available": true
+    },
+    {
+      "id": "157",
+      "restaurantId": "10",
+      "name": "Espresso",
+      "category": "Beverages",
+      "price": 90,
+      "description": "Strong freshly brewed espresso.",
+      "image": "https://images.unsplash.com/photo-1510707577719-ae7c14805e76?w=700",
+      "available": true
+    },
+    {
+      "id": "158",
+      "restaurantId": "10",
+      "name": "Cafe Latte",
+      "category": "Beverages",
+      "price": 130,
+      "description": "Espresso with steamed milk.",
+      "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=700",
+      "available": true
+    },
+    {
+      "id": "159",
+      "restaurantId": "10",
+      "name": "Cold Coffee",
+      "category": "Beverages",
+      "price": 140,
+      "description": "Chilled coffee blended with milk.",
+      "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=700",
+      "available": true
+    },
+    {
+      "id": "160",
+      "restaurantId": "10",
+      "name": "Veg Puff",
+      "category": "Snacks",
+      "price": 45,
+      "description": "Flaky pastry filled with vegetables.",
+      "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=700",
+      "available": true
+    },
+    {
+      "id": "161",
+      "restaurantId": "11",
+      "name": "Andhra Fish Curry",
+      "category": "Seafood",
+      "price": 280,
+      "description": "Tangy coastal fish curry.",
+      "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=700",
+      "available": true
+    },
+    {
+      "id": "162",
+      "restaurantId": "11",
+      "name": "Royyala Vepudu",
+      "category": "Seafood",
+      "price": 320,
+      "description": "Spicy pan-fried prawns.",
+      "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?w=700",
+      "available": true
+    },
+    {
+      "id": "163",
+      "restaurantId": "11",
+      "name": "Apollo Fish",
+      "category": "Starters",
+      "price": 260,
+      "description": "Crispy fish tossed in spicy sauce.",
+      "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=700",
+      "available": true
+    },
+    {
+      "id": "164",
+      "restaurantId": "11",
+      "name": "Chicken Pulao",
+      "category": "Rice",
+      "price": 220,
+      "description": "Fragrant rice with tender chicken.",
+      "image": "https://images.unsplash.com/photo-1563379091339-03246963d96a?w=700",
+      "available": true
+    },
+    {
+      "id": "165",
+      "restaurantId": "11",
+      "name": "Fish Fry",
+      "category": "Seafood",
+      "price": 250,
+      "description": "Crispy fish with coastal spices.",
+      "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=700",
+      "available": true
+    },
+    {
+      "id": "166",
+      "restaurantId": "11",
+      "name": "Curd Rice",
+      "category": "Meals",
+      "price": 90,
+      "description": "Cooling curd rice with tempering.",
+      "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=700",
+      "available": true
+    },
+    {
+      "id": "167",
+      "restaurantId": "12",
+      "name": "Chicken Tikka",
+      "category": "Starters",
+      "price": 240,
+      "description": "Yogurt-marinated chicken roasted in tandoor.",
+      "image": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=700",
+      "available": true
+    },
+    {
+      "id": "168",
+      "restaurantId": "12",
+      "name": "Paneer Tikka",
+      "category": "Starters",
+      "price": 200,
+      "description": "Grilled paneer with peppers and spices.",
+      "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=700",
+      "available": true
+    },
+    {
+      "id": "169",
+      "restaurantId": "12",
+      "name": "Tandoori Chicken",
+      "category": "Starters",
+      "price": 290,
+      "description": "Classic smoky tandoori chicken.",
+      "image": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=700",
+      "available": true
+    },
+    {
+      "id": "170",
+      "restaurantId": "12",
+      "name": "Dal Makhani",
+      "category": "Curry",
+      "price": 180,
+      "description": "Slow-cooked black lentils in creamy gravy.",
+      "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=700",
+      "available": true
+    },
+    {
+      "id": "171",
+      "restaurantId": "12",
+      "name": "Shahi Paneer",
+      "category": "Curry",
+      "price": 210,
+      "description": "Paneer in rich cashew tomato gravy.",
+      "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=700",
+      "available": true
+    },
+    {
+      "id": "172",
+      "restaurantId": "12",
+      "name": "Butter Naan",
+      "category": "Breads",
+      "price": 45,
+      "description": "Soft tandoor naan with butter.",
+      "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=700",
+      "available": true
+    },
+    {
+      "id": "173",
+      "restaurantId": "13",
+      "name": "Plain Dosa",
+      "category": "South Indian",
+      "price": 70,
+      "description": "Crisp golden dosa with chutneys.",
+      "image": "https://images.unsplash.com/photo-1668236543090-82eba5ee5976?w=700",
+      "available": true
+    },
+    {
+      "id": "174",
+      "restaurantId": "13",
+      "name": "Masala Dosa",
+      "category": "South Indian",
+      "price": 100,
+      "description": "Dosa filled with spiced potato masala.",
+      "image": "https://images.unsplash.com/photo-1668236543090-82eba5ee5976?w=700",
+      "available": true
+    },
+    {
+      "id": "175",
+      "restaurantId": "13",
+      "name": "Idli Sambar",
+      "category": "South Indian",
+      "price": 60,
+      "description": "Steamed idlis with hot sambar.",
+      "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?w=700",
+      "available": true
+    },
+    {
+      "id": "176",
+      "restaurantId": "13",
+      "name": "Medu Vada",
+      "category": "South Indian",
+      "price": 65,
+      "description": "Crispy lentil fritters with chutney.",
+      "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?w=700",
+      "available": true
+    },
+    {
+      "id": "177",
+      "restaurantId": "13",
+      "name": "Uttapam",
+      "category": "South Indian",
+      "price": 95,
+      "description": "Thick pancake topped with vegetables.",
+      "image": "https://images.unsplash.com/photo-1668236543090-82eba5ee5976?w=700",
+      "available": true
+    },
+    {
+      "id": "178",
+      "restaurantId": "13",
+      "name": "Filter Coffee",
+      "category": "Beverages",
+      "price": 35,
+      "description": "Traditional South Indian filter coffee.",
+      "image": "https://images.unsplash.com/photo-1534778101976-62847782c213?w=700",
+      "available": true
+    },
+    {
+      "id": "179",
+      "restaurantId": "14",
+      "name": "Veg Hakka Noodles",
+      "category": "Noodles",
+      "price": 150,
+      "description": "Wok-tossed noodles with vegetables.",
+      "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=700",
+      "available": true
+    },
+    {
+      "id": "180",
+      "restaurantId": "14",
+      "name": "Chicken Hakka Noodles",
+      "category": "Noodles",
+      "price": 190,
+      "description": "Noodles tossed with chicken and vegetables.",
+      "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=700",
+      "available": true
+    },
+    {
+      "id": "181",
+      "restaurantId": "14",
+      "name": "Schezwan Fried Rice",
+      "category": "Rice",
+      "price": 170,
+      "description": "Spicy fried rice with Schezwan sauce.",
+      "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=700",
+      "available": true
+    },
+    {
+      "id": "182",
+      "restaurantId": "14",
+      "name": "Chicken Fried Rice",
+      "category": "Rice",
+      "price": 190,
+      "description": "Fried rice with chicken and egg.",
+      "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=700",
+      "available": true
+    },
+    {
+      "id": "183",
+      "restaurantId": "14",
+      "name": "Veg Manchurian",
+      "category": "Starters",
+      "price": 150,
+      "description": "Vegetable balls in tangy Manchurian sauce.",
+      "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=700",
+      "available": true
+    },
+    {
+      "id": "184",
+      "restaurantId": "14",
+      "name": "Chilli Chicken",
+      "category": "Starters",
+      "price": 220,
+      "description": "Chicken tossed with chillies and peppers.",
+      "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=700",
+      "available": true
+    },
+    {
+      "id": "185",
+      "restaurantId": "15",
+      "name": "Paneer Kathi Roll",
+      "category": "Wraps",
+      "price": 160,
+      "description": "Spiced paneer wrapped in flatbread.",
+      "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=700",
+      "available": true
+    },
+    {
+      "id": "186",
+      "restaurantId": "15",
+      "name": "Chicken Kathi Roll",
+      "category": "Wraps",
+      "price": 190,
+      "description": "Chicken tikka wrapped with onions and sauce.",
+      "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=700",
+      "available": true
+    },
+    {
+      "id": "187",
+      "restaurantId": "15",
+      "name": "Veg Frankie",
+      "category": "Wraps",
+      "price": 120,
+      "description": "Vegetable-filled Indian street-style roll.",
+      "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=700",
+      "available": true
+    },
+    {
+      "id": "188",
+      "restaurantId": "15",
+      "name": "Chicken Shawarma Roll",
+      "category": "Wraps",
+      "price": 180,
+      "description": "Chicken with salad and creamy sauce.",
+      "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=700",
+      "available": true
+    },
+    {
+      "id": "189",
+      "restaurantId": "15",
+      "name": "Grilled Cheese Sandwich",
+      "category": "Snacks",
+      "price": 130,
+      "description": "Toasted sandwich with melted cheese.",
+      "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=700",
+      "available": true
+    },
+    {
+      "id": "190",
+      "restaurantId": "15",
+      "name": "Potato Wedges",
+      "category": "Snacks",
+      "price": 100,
+      "description": "Seasoned crispy potato wedges.",
+      "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=700",
+      "available": true
+    }
+  ],
   "orders": [],
   "$schema": "./node_modules/json-server/schema.json"
 }

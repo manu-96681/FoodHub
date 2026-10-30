@@ -1,11 +1,15 @@
-
-
 function FoodCard({ food, onAddToCart }) {
+  const fallbackImage = "https://placehold.co/400x300?text=Food";
+
   return (
     <div className="food-card">
       <img
-        src={food.image || "https://placehold.co/300x180?text=Food"}
+        src={food.image || fallbackImage}
         alt={food.name}
+        onError={(e) => {
+          e.currentTarget.onerror = null;
+          e.currentTarget.src = fallbackImage;
+        }}
       />
 
       <div className="card-content">

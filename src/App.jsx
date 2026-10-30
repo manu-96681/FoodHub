@@ -18,6 +18,8 @@ import MyOrders from "./pages/MyOrders";
 
 import "./styles/admin.css";
 import "./styles/ordering.css";
+import "./App.css";
+
 
 function PublicLayout() {
   return (
