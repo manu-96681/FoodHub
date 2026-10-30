@@ -8,12 +8,16 @@ function ManageOrders() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
 
+  // Fetch all orders
   const loadOrders = async () => {
     try {
-      const data = await getOrders();
-      setOrders(data);
+      setLoading(true);
       setError("");
+
+      const data = await getOrders();
+      setOrders(Array.isArray(data) ? data : []);
     } catch (err) {
+      console.error("Error loading orders:", err);
       setError("Unable to load orders. Please check JSON Server.");
     } finally {
       setLoading(false);
@@ -24,21 +28,28 @@ function ManageOrders() {
     loadOrders();
   }, []);
 
+  // Update only the selected order's status
   const handleStatusChange = async (id, status) => {
-    const selectedOrder = orders.find((order) => order.id === id);
-
-    if (!selectedOrder) return;
-
     try {
-      await updateOrder(id, { ...selectedOrder, status });
-      await loadOrders();
+      const updatedOrder = await updateOrder(id, { status });
+
+      setOrders((previousOrders) =>
+        previousOrders.map((order) =>
+          order.id === id ? updatedOrder : order
+        )
+      );
     } catch (err) {
-      alert("Unable to update order status.");
+      console.error("Error updating order:", err);
+      alert("Unable to update order status. Please try again.");
     }
   };
 
   if (loading) {
-    return <p className="loading-message">Loading orders...</p>;
+    return (
+      <p className="loading-message">
+        Loading orders...
+      </p>
+    );
   }
 
   return (
@@ -48,12 +59,23 @@ function ManageOrders() {
           <h1>Manage Orders</h1>
           <p>View customer orders and update their status</p>
         </div>
+
+        <button type="button" onClick={loadOrders}>
+          Refresh Orders
+        </button>
       </div>
 
-      {error && <p className="error-message">{error}</p>}
-
-      {orders.length === 0 ? (
-        <p className="empty-message">No orders have been placed yet.</p>
+      {error ? (
+        <div className="error-message">
+          <p>{error}</p>
+          <button type="button" onClick={loadOrders}>
+            Try Again
+          </button>
+        </div>
+      ) : orders.length === 0 ? (
+        <p className="empty-message">
+          No orders have been placed yet.
+        </p>
       ) : (
         <div className="order-list">
           {orders.map((order) => (
